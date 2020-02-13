@@ -108,7 +108,7 @@ def play
   turn until over? 
   
   if winner
-    puts "Congratualations"
+    puts "Congratulations #{winner}"
 end 
 
 end
