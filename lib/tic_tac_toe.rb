@@ -106,6 +106,9 @@ end
 
 def play 
   turn until over? 
+  
+  if winner
+    puts "Congratualations"
 end 
 
 end
