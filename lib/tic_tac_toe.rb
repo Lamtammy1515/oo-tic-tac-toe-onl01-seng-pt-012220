@@ -97,6 +97,10 @@ def over?
 end 
   
 def winner 
-  won? ? @board[won?[0]] : nil 
+  #won? ? @board[won?[0]] : nil 
+  if player = won? 
+    @board[player[0]]
+  end 
 end 
+
 end
