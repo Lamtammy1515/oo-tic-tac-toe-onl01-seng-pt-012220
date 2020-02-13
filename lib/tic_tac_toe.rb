@@ -110,7 +110,7 @@ def play
   if winner
     puts "Congratulations #{winner}!"
   else 
-    puts "Cats Game!"
+    puts "Cat's Game!"
   end 
 end 
 
