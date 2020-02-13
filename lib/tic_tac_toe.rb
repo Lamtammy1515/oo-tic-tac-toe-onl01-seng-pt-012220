@@ -97,8 +97,6 @@ def over?
 end 
   
 def winner 
- #bottom hash is a terinary way of writing it.
- #won? ? @board[won?[0]] : nil 
   if player = won? 
     @board[player[0]]
   end 
