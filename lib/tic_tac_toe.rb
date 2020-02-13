@@ -104,4 +104,8 @@ def winner
   end 
 end 
 
+def play 
+  turn until over? 
+end 
+
 end
